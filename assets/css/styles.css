@@ -581,6 +581,13 @@ span:hover {
 .footer .social-link {
   width: 28px;
   height: 28px;
+  margin-left: 16px;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}
+
+.footer .social-link:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .footer .row-bottom {
