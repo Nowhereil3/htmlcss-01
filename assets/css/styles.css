@@ -56,6 +56,8 @@ a {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   background: rgba(230, 240, 255, 1);
   height: calc(100vh - 90px);
   position: relative;
@@ -100,7 +102,7 @@ a {
 }
 
 .hero {
-  padding-top: 130px;
+  /* padding-top: 130px; */
   display: flex;
 }
 
