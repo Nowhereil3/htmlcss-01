@@ -309,7 +309,8 @@ span:hover {
 }
 /* ====== Featured list ====== */
 .featured .list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 66px;
   justify-content: space-between;
 }
